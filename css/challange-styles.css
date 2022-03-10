@@ -1,0 +1,49 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+h1, h2, h3{
+    color: #bb1b47;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 3.5rem;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+.site-intro{
+    font-size: 1.25rem;
+}
+
+nav a{
+    background-color: rgb(240, 130, 130);
+    color: black;
+    font-weight: bold;
+    padding: .15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+nav a:hover{
+    background-color: rgb(216, 68, 68);
+}
+
+nav a:visited{
+    color: rgb(88, 31, 31);
+}
+
+nav li{
+    list-style-type: none;
+}

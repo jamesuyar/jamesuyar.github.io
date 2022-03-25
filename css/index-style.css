@@ -1,0 +1,105 @@
+html{
+    line-height: 1.3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1, h2{
+    color: maroon;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: left;
+}
+
+nav li{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    
+}
+
+nav a:hover{
+    text-decoration: underline rgb(217, 206, 63) 3px;
+    font-style: italic;
+}
+
+nav a:link,
+nav a:visited{
+    color: #1b1a17;
+}
+
+nav a:hover::before,
+nav a:hover::after{
+    content: "\1F4DC ";
+}
+
+header{
+    text-align: center; 
+}
+
+p{
+    text-align: left;
+    color:#1b1a17;
+    font-size: 1.1rem;
+    letter-spacing:.1px;
+}
+
+.assignments a{
+    text-decoration: none;
+}
+
+.assignments li{
+    list-style-type: none;
+}
+
+.assignments a:hover{
+    text-decoration: underline rgb(217, 206, 63) 3px;
+    text-decoration-style: solid;
+}
+
+.assignments a:link,
+.assignments a:visited{
+    color:#1b1a17;
+}
+
+.assignments li::before{
+    content: "\1F4DC ";
+}
+
+footer p{
+    font-size: .8rem;
+    line-height: .9rem;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer a:link,
+footer a:visited{
+    color:rgb(232, 58, 20);
+}
+
+footer a:hover{
+    color:#1b1a17;
+    text-decoration: underline rgba(27, 26, 23, .2);
+    font-style: italic;
+}
+
+p a{
+    text-decoration:underline;
+    font-size: 1rem;
+    color:#1b1a17;
+}

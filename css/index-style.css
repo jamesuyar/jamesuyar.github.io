@@ -11,11 +11,39 @@ h1{
     font-size: 3rem;
     text-align: center;
     text-transform: uppercase;
+    opacity: 0%;
+}
+
+.fade-text{
+    animation: fadeTxt linear 6s 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeTxt{
+    0%{
+        opacity: 0;
+    }
+   
+    100%{
+        opacity: 1;
+        font-size: 3.25rem;
+    }
 }
 
 h2{
     font-size: 2rem;
     text-align: left;
+}
+
+nav{
+    float: right;
+    position: sticky;
+    top: 0;
+    width: 250px;
+}
+
+nav ul{
+    padding: 0;
 }
 
 nav li{
@@ -25,9 +53,8 @@ nav li{
 
 nav a{
     text-decoration: none;
-    font-size: 1.3rem;
-    font-weight: bold;
-    
+    font-size: 1.4rem;
+    font-weight: bold; 
 }
 
 nav a:hover{
@@ -47,6 +74,30 @@ nav a:hover::after{
 
 header{
     text-align: center; 
+    width: 70%;
+    margin: 0 auto;
+    line-height: 1.4rem;
+}
+
+
+.fade-img{
+    animation: fadeImg linear 6s 6s;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+@keyframes fadeImg{
+    0%{
+        transform: translateX(-100rem);
+        opacity: 0;
+    }
+    50%{
+        transform: translateX(1rem);
+    }
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
 }
 
 p{
@@ -78,9 +129,15 @@ p{
     content: "\1F4DC ";
 }
 
-footer p{
-    font-size: .8rem;
-    line-height: .9rem;
+footer{
+    line-height: 80%;
+    font-weight: 500;
+    position: relative;
+}
+
+small{
+    float: right;
+    padding: 20px 0 40px 0;
 }
 
 footer a{
@@ -102,4 +159,10 @@ p a{
     text-decoration:underline;
     font-size: 1rem;
     color:#1b1a17;
+}
+
+.top{
+    position: absolute;
+    right: 1rem;
+    top: 55rem;
 }
